@@ -11,6 +11,27 @@ Each notebook is self-contained. Read them in the order below if you want the ro
 starting with scraping and cleaning, moving to regression, then into text preprocessing, then a multi-model
 classification comparison, and finally a short cross-validated model comparison exercise.
 
+## Skills demonstrated
+
+**Data Wrangling:** web scraping (`requests`, `BeautifulSoup`), HTML table extraction, pandas data cleaning
+and reshaping, feature engineering (title extraction, banding, derived ratios)
+
+**Classical ML:** regression (scikit-learn `linear_model`), classification (Logistic Regression, KNN, SVM,
+Naive Bayes, Decision Tree, Random Forest, XGBoost), ensemble comparison, k-fold cross-validation,
+train/validation splitting
+
+**NLP:** text preprocessing (HTML stripping, punctuation and emoticon handling, stopword removal) with NLTK,
+bag-of-words and TF-IDF feature extraction, sentiment classification
+
+**Deep Learning:** a small feed-forward network (TensorFlow/Keras) benchmarked alongside classical models
+
+**Visualization:** matplotlib, seaborn
+
+**Evaluation Practice:** reporting train-vs-validation accuracy gaps honestly (including overfitting signatures)
+rather than only the flattering number, identifying missing baselines and stating what a rigorous fix would
+require
+
+
 ## Notebooks
 
 ### covid_wikipedia_scrape.ipynb
@@ -75,22 +96,3 @@ linked from my profile. What I think is worth your time here is the process on d
 and modeling choices out loud, checking assumptions with a plot or a groupby before moving on, and being honest
 in the notebook itself about what a result does and does not support.
 
-## Skills demonstrated
-
-**Data Wrangling:** web scraping (`requests`, `BeautifulSoup`), HTML table extraction, pandas data cleaning
-and reshaping, feature engineering (title extraction, banding, derived ratios)
-
-**Classical ML:** regression (scikit-learn `linear_model`), classification (Logistic Regression, KNN, SVM,
-Naive Bayes, Decision Tree, Random Forest, XGBoost), ensemble comparison, k-fold cross-validation,
-train/validation splitting
-
-**NLP:** text preprocessing (HTML stripping, punctuation and emoticon handling, stopword removal) with NLTK,
-bag-of-words and TF-IDF feature extraction, sentiment classification
-
-**Deep Learning:** a small feed-forward network (TensorFlow/Keras) benchmarked alongside classical models
-
-**Visualization:** matplotlib, seaborn
-
-**Evaluation Practice:** reporting train-vs-validation accuracy gaps honestly (including overfitting signatures)
-rather than only the flattering number, identifying missing baselines and stating what a rigorous fix would
-require
